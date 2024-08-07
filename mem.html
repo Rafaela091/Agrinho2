@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="mem.css">
+    <link rel="icon" href="https://i.pinimg.com/564x/39/e4/26/39e426741c29f67274c8d23734f19aea.jpg">
+</head>
+<body>
+    <div class="image-button">
+        <a href="games.html">
+            <img src="logames.jpg" alt="Botão">
+            <p class="image-title">Voltar</p>
+        </a>
+    </div>
+    <div class="score">
+        Pontos: <span id="score">0</span>
+    </div>
+
+    <div class="memory-game">
+        <div class="memory-card" data-framework="carta 1">
+            <img class="front-face" src="https://i.pinimg.com/736x/0e/f2/bd/0ef2bda980f4c53be9d6fcfa73db75e3.jpg" alt="Image 1">
+            <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+        </div>
+        <div class="memory-card" data-framework="carta 1">
+            <img class="front-face" src="https://i.pinimg.com/736x/0e/f2/bd/0ef2bda980f4c53be9d6fcfa73db75e3.jpg" alt="Image 1">
+            <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+        </div>
+        <div class="memory-card" data-framework="carta 2">
+            <img class="front-face" src="https://i.pinimg.com/564x/d9/e8/e8/d9e8e88af92e8f28ed475af0bd4e1597.jpg" alt=" Image 2">
+            <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+        </div>
+        
+        <div class="memory-card" data-framework="carta 2">
+            <img class="front-face" src="https://i.pinimg.com/564x/d9/e8/e8/d9e8e88af92e8f28ed475af0bd4e1597.jpg" alt="Image 2">
+            <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+        </div>
+       
+        <div class="memory-card" data-framework="carta 3">
+            <img class="front-face" src="https://i.pinimg.com/564x/48/4b/3d/484b3d5b778ad3c7377d886eabe3045f.jpg" alt=" Image 3">
+            <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+        </div>
+        
+        <div class="memory-card" data-framework="carta 3">
+            <img class="front-face" src="https://i.pinimg.com/564x/48/4b/3d/484b3d5b778ad3c7377d886eabe3045f.jpg" alt="Image 3">
+            <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+        </div>
+    
+     <div class="memory-card" data-framework="carta 4">
+        <img class="front-face" src="https://i.pinimg.com/564x/d8/9e/8a/d89e8a529177646947951140d9654ab3.jpg" alt=" Image 4">
+        <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+    </div>
+    
+    <div class="memory-card" data-framework="carta 4">
+        <img class="front-face" src="https://i.pinimg.com/564x/d8/9e/8a/d89e8a529177646947951140d9654ab3.jpg" alt="Image 4">
+        <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+    </div>
+     
+     <div class="memory-card" data-framework="carta 5">
+        <img class="front-face" src="https://i.pinimg.com/736x/54/b5/47/54b5476f51bb544e146a969184978223.jpg" alt=" Image 5">
+        <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+    </div>
+
+    <div class="memory-card" data-framework="carta 5">
+        <img class="front-face" src="https://i.pinimg.com/736x/54/b5/47/54b5476f51bb544e146a969184978223.jpg" alt="Image 5">
+        <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+    </div>
+
+    <div class="memory-card" data-framework="carta 6">
+        <img class="front-face" src="https://i.pinimg.com/564x/c4/5b/d9/c45bd99104106347e07ce04fe0923a40.jpg" alt="image6">
+        <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+    </div>
+    <div class="memory-card" data-framework="carta 6">
+        <img class="front-face" src="https://i.pinimg.com/564x/c4/5b/d9/c45bd99104106347e07ce04fe0923a40.jpg" alt="image6">
+        <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+    </div>
+   
+    <div class="memory-card" data-framework="carta 7">
+        <img class="front-face" src="https://i.pinimg.com/564x/0b/7a/74/0b7a741e8949817b3d688199f675a845.jpg" alt="image7">
+        <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+    </div>
+    <div class="memory-card" data-framework="carta 7">
+        <img class="front-face" src="https://i.pinimg.com/564x/0b/7a/74/0b7a741e8949817b3d688199f675a845.jpg" alt="image7">
+        <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+    </div>
+    <div class="memory-card" data-framework="carta 8">
+        <img class="front-face" src="https://i.pinimg.com/564x/71/19/be/7119be239a729a79af6296bfd2dac9c9.jpg" alt="image8">
+        <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+    </div>
+    <div class="memory-card" data-framework="carta 8">
+        <img class="front-face" src="https://i.pinimg.com/564x/71/19/be/7119be239a729a79af6296bfd2dac9c9.jpg" alt="image8">
+        <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+    </div>
+    <div class="memory-card" data-framework="carta 9">
+        <img class="front-face" src="https://i.pinimg.com/564x/b0/2e/2e/b02e2e736be70fe0e5b99ab2792305d0.jpg" alt="">
+        <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+    </div>
+    <div class="memory-card" data-framework="carta 9">
+        <img class="front-face" src="https://i.pinimg.com/564x/b0/2e/2e/b02e2e736be70fe0e5b99ab2792305d0.jpg" alt="">
+        <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+    </div>
+    <div class="memory-card" data-framework="carta 10">
+        <img class="front-face" src="https://i.pinimg.com/564x/66/52/f4/6652f413bbacdd69bc09181d7ca871ca.jpg" alt="">
+        <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+    </div>
+    <div class="memory-card" data-framework="carta 10">
+        <img class="front-face" src="https://i.pinimg.com/564x/66/52/f4/6652f413bbacdd69bc09181d7ca871ca.jpg" alt="">
+        <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+    </div>
+    <div class="memory-card" data-framework="carta 11">
+        <img class="front-face" src="https://i.pinimg.com/564x/75/05/11/750511432361e93e11d912cf7b2eb89f.jpg" alt="">
+        <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+    </div>
+    <div class="memory-card" data-framework="carta 11">
+        <img class="front-face" src="https://i.pinimg.com/564x/75/05/11/750511432361e93e11d912cf7b2eb89f.jpg" alt="">
+        <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+    </div>
+    <div class="memory-card" data-framework="carta 12">
+        <img class="front-face" src="https://i.pinimg.com/564x/0e/d0/83/0ed083afcae2fc67c4edc5dd65184c08.jpg" alt="">
+        <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+    </div>
+    <div class="memory-card" data-framework="carta 12">
+        <img class="front-face" src="https://i.pinimg.com/564x/0e/d0/83/0ed083afcae2fc67c4edc5dd65184c08.jpg" alt="">
+        <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+    </div>
+    <div class="memory-card" data-framework="carta 13">
+        <img class="front-face" src="https://i.pinimg.com/564x/6d/31/0e/6d310ef554fbd17e6cefbe98182c6921.jpg" alt="">
+        <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+    </div>
+    <div class="memory-card" data-framework="carta 13">
+        <img class="front-face" src="https://i.pinimg.com/564x/6d/31/0e/6d310ef554fbd17e6cefbe98182c6921.jpg" alt="">
+        <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+    </div>
+    <div class="memory-card" data-framework="carta 14">
+        <img class="front-face" src="https://i.pinimg.com/564x/87/cd/ba/87cdba3070221d07ce43355565654a27.jpg" alt="">
+        <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+    </div>
+    <div class="memory-card" data-framework="carta 14">
+        <img class="front-face" src="https://i.pinimg.com/564x/87/cd/ba/87cdba3070221d07ce43355565654a27.jpg" alt="">
+        <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+    </div>
+    <div class="memory-card" data-framework="carta 15">
+        <img class="front-face" src="https://i.pinimg.com/564x/4f/28/ef/4f28ef9164accada00075a251b69f020.jpg" alt="">
+        <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+   </div>
+   <div class="memory-card" data-framework="carta 15">
+    <img class="front-face" src="https://i.pinimg.com/564x/4f/28/ef/4f28ef9164accada00075a251b69f020.jpg" alt="">
+    <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+</div>
+<div class="memory-card" data-framework="carta 16">
+    <img class="front-face" src="https://i.pinimg.com/564x/d7/06/f8/d706f83801ac3d6da99d23d16cd22dad.jpg" alt="">
+    <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+</div>
+<div class="memory-card" data-framework="carta 16">
+    <img class="front-face" src="https://i.pinimg.com/564x/d7/06/f8/d706f83801ac3d6da99d23d16cd22dad.jpg" alt="">
+    <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+</div>
+<div class="memory-card" data-framework="carta 17">
+    <img class="front-face" src="https://i.pinimg.com/564x/84/6b/60/846b608b46aa25c1b55476d7ea10f49b.jpg" alt="">
+    <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+</div>
+<div class="memory-card" data-framework="carta 17">
+    <img class="front-face" src="https://i.pinimg.com/564x/84/6b/60/846b608b46aa25c1b55476d7ea10f49b.jpg" alt="">
+    <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+</div>
+<div class="memory-card" data-framework="carta 18">
+    <img class="front-face" src="https://i.pinimg.com/564x/9e/3e/76/9e3e761f34c1e801de44810bb3408a6a.jpg" alt="">
+    <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+</div>
+<div class="memory-card" data-framework="carta 18">
+    <img class="front-face" src="https://i.pinimg.com/564x/9e/3e/76/9e3e761f34c1e801de44810bb3408a6a.jpg" alt="">
+    <img class="back-face" src="https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg" alt="JS Badge">
+</div>
+
+        <script src="mem.js"></script>
+</body>
+</html>
+
